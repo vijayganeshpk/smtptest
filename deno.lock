@@ -1,42 +1,19 @@
 {
   "version": "4",
   "specifiers": {
-    "jsr:@std/assert@0.223": "0.223.0",
     "jsr:@std/assert@1": "1.0.9",
-    "jsr:@std/bytes@0.223": "0.223.0",
     "jsr:@std/internal@^1.0.5": "1.0.5",
-    "jsr:@std/io@0.223.0": "0.223.0",
-    "jsr:@xtool/smtp@0.1": "0.1.0",
     "npm:nodemailer@*": "6.9.16"
   },
   "jsr": {
-    "@std/assert@0.223.0": {
-      "integrity": "eb8d6d879d76e1cc431205bd346ed4d88dc051c6366365b1af47034b0670be24"
-    },
     "@std/assert@1.0.9": {
       "integrity": "a9f0c611a869cc791b26f523eec54c7e187aab7932c2c8e8bea0622d13680dcd",
       "dependencies": [
         "jsr:@std/internal"
       ]
     },
-    "@std/bytes@0.223.0": {
-      "integrity": "84b75052cd8680942c397c2631318772b295019098f40aac5c36cead4cba51a8"
-    },
     "@std/internal@1.0.5": {
       "integrity": "54a546004f769c1ac9e025abd15a76b6671ddc9687e2313b67376125650dc7ba"
-    },
-    "@std/io@0.223.0": {
-      "integrity": "2d8c3c2ab3a515619b90da2c6ff5ea7b75a94383259ef4d02116b228393f84f1",
-      "dependencies": [
-        "jsr:@std/assert@0.223",
-        "jsr:@std/bytes"
-      ]
-    },
-    "@xtool/smtp@0.1.0": {
-      "integrity": "c80c1c9e967818ec0fed6297119bdbc9e4d89d9da789c718d930146bc99a0141",
-      "dependencies": [
-        "jsr:@std/io"
-      ]
     }
   },
   "npm": {
@@ -68,8 +45,7 @@
   },
   "workspace": {
     "dependencies": [
-      "jsr:@std/assert@1",
-      "jsr:@xtool/smtp@0.1"
+      "jsr:@std/assert@1"
     ]
   }
 }
