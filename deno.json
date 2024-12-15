@@ -1,8 +1,10 @@
 {
   "tasks": {
-    "dev": "deno run --watch main.ts"
+    "dev": "deno run --allow-env --env-file --allow-net --allow-sys main.ts",
+    "devw": "deno run --allow-env --env-file --allow-net --watch main.ts"
   },
   "imports": {
-    "@std/assert": "jsr:@std/assert@1"
+    "@std/assert": "jsr:@std/assert@1",
+    "@xtool/smtp": "jsr:@xtool/smtp@^0.1.0"
   }
 }
