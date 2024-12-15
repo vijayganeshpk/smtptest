@@ -1,0 +1,21 @@
+# Dependencies
+/deps.ts
+/import_map.json
+
+# Compiled output
+/dist/
+/build/
+
+# Logs
+*.log
+
+# Deno cache
+/deno_dir/
+/deno_cache/
+
+# Environment variables
+.env
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
