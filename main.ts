@@ -33,6 +33,7 @@ try {
       to: smtp_to_email, // list of receivers
       subject: "Hello from smtptest (nodemailer)!", // Subject line
       text: `Hello, this is a test email sent from smtptest(nodemailer)! Timestamp: ${timestamp}`, // plain text body
+      html: `<b>Hello, this is a test email sent from smtptest(nodemailer)! Timestamp: ${timestamp}</b>`, // html body
    });
    console.log(info);
    console.log("Email sent successfully!");
